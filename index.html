@@ -3,7 +3,7 @@
 <heade>
     <meta charset="utf-8">
     <link rel="stylesheet" href="tamrin6-2.html">
-    <link rel="stylesheet" href="tamrin6.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <title></title>
 </head>
@@ -57,9 +57,19 @@
                 <lable for="name"></lable><br><br>
                 <input type="email" id="email" value="ایمیل">
                 <lable for="email"></lable><br><br>
-                <textarea name="message" rows="10" cols="30">نظرسنجی</textarea>
+                <textarea name="message" rows="10" cols="30">نظرسنجی</textarea><br>
+                <button>ثبت</button>
+                <p id="sub">در نظر سنجی شرکت کردم</p>
             </form>
         </p>
+
     </div>
+    <script>
+        document.getElementById("sub").onclick = function() {myFunction()};
+        
+        function myFunction() {
+          document.getElementById("sub").innerHTML = "از شرکت در نظر سنجی سایت متشکریم";
+        }
+        </script>
 </body>
 </html>
