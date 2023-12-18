@@ -2,74 +2,25 @@
 <html dir="rtl">
 <heade>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="tamrin6-2.html">
+    <link  href="index1.html">
     <link rel="stylesheet" href="style.css">
+    <script src="myjavascript.js"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>ورود به سایت</title>
 </head>
-<body>
-    <div class="head">
-        <p class="flink">
-            <ul class="flist"> 
-                <li><a href="#">صفحه نخست</a></li>
-                <li><a href="tamrin6-2.html">صفحه دوم</a></li>
-                <li><a href="#">صفحه سوم</a></li>
-            </ul>
-        </p>
-    </div>
-    <div class="main">
-        <p class="experssion">
-            <h3>طراحی سایت</h3>
-            طراحی سایت به ساخت و راه اندازی صفحات 
-            سایت گفته می‌شود که معمولا این کار با کدنویسی به زبان‌های مختلف 
-            برنامه نویسی و یا با استفاده از قالب‌های آماده انجام می‌شود
-            . در آغاز، وبسایت‌ها با استفاده از زبان HTML نوشته می‌شدند 
-            و پس از آن با
-             پیشرفت وب، طراحی‌ با استفاده از جدول‌های پنهان در صفحه و زبان 
-             HTML منسوخ شد و استفاده از زبان CSS روی کار آمد. به زبانی ساده‌تر تعریف 
-             طراحی سایت عبارت است از ساخت 
-             صفحات وب یا ریدیزاین و بهینه
-              سازی سایت‌های قدیمی که در
-              بستر اینترنت انجام می‌شود
-        </p>
-    </div>
-    <p class="imgpage">
-    <img class="img" src="web.png" alt="webdesign">
-    </p>
-    <div class="linkpage">
-        <p class="slink">
-            <h2>مباحث طراحی سایت</h2>
-            <ul class="slist">
-                <li><a href="#">html</a></li>
-                <li><a href="#">css</a></li>
-                <li><a href="#">javascript</a></li>
-            </ul>
-        </p>
-    </div>
-    
-    <div class="footer">
-        <p>
-            <h3>نظرسنجی</h3>
-            <form>
-                <input type="text" id="name" value="نام">
-                <lable for="name"></lable><br><br>
-                <input type="text" id="lname" value="نام خانوادگی">
-                <lable for="name"></lable><br><br>
-                <input type="email" id="email" value="ایمیل">
-                <lable for="email"></lable><br><br>
-                <textarea name="message" rows="10" cols="30">نظرسنجی</textarea><br>
-                <button>ثبت</button>
-                <p id="sub">در نظر سنجی شرکت کردم</p>
-            </form>
-        </p>
+<body class="inputpage">
+    <h2>ورود به سایت</h2>
+    <div class="input">
+    <form>
+        <lable for="name">نام</lable>
+        <input type="text" id="name" ><br><br>
 
-    </div>
-    <script>
-        document.getElementById("sub").onclick = function() {myFunction()};
-        
-        function myFunction() {
-          document.getElementById("sub").innerHTML = "از شرکت در نظر سنجی سایت متشکریم";
-        }
-        </script>
+        <lable for="phonenum">تلفن همراه</lable>
+        <input type="tel" id="phonenum" ><br><br>
+
+        <lable for="pass">رمز</lable>
+        <input type="password" id="pass"><br><br>
+        <button><a href="index1.html">ورود</a></button>
+    </div>  
+    </form>
 </body>
-</html>
